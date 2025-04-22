@@ -20,6 +20,7 @@ namespace Business.Services
         public Admin GetAdminById(int id)
         {
             return _context.Admins.Find(id);
+            //new
         }
 
         public void AddAdmin(Admin admin)
